@@ -12,7 +12,7 @@ console.log("food =", food);
 food = ["ramen", "udon", "raw fish"];
 console.log("After reassigning food =", food);
 
-let complex = [1,2,3["A","B",["Alpha","Beta"], "C"]];
+let complex = [1,2,3["A","B",["Alpha","Beta"], "C"]]
 console.log (complex[3][2][0]);
 
 // Arrays are reference values
