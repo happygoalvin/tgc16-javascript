@@ -3,9 +3,9 @@ const prompt = require("prompt-sync")();
 console.log("3 || 4 => ", 3 || 4);
 console.log("0 || 4) =>", 0 || 4);
 
-let name = prompt("enter a name: ");
+// let name = prompt("enter a name: ");
 // if name is empty, set to N/A
-name = name || "N/A";
+// name = name || "N/A";
 // if user enters "" for name
 // name = "" || "N/A"
 // name = "N/A"
@@ -16,4 +16,7 @@ name = name || "N/A";
 
 console.log("1 && 2 =>", 1 && 2);
 console.log("1 && null =>", 1 && null);
+
+Math.sqrt(-1)
+console.log(Math.sqrt(-1))
 
