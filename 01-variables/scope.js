@@ -1,4 +1,4 @@
-const PromptSync = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 
 // in Javascript, { ... } forms a scope
 let age = parseInt(prompt("Please enter your age: "))

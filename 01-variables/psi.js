@@ -1,4 +1,4 @@
-const PromptSync = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 let psi = parseFloat(prompt("Please enter the psi: "))
 let quality = 0;
 if(psi <= 150) {

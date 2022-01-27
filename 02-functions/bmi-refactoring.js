@@ -1,4 +1,4 @@
-const PromptSync = require("prompt-sync")();
+const prompt = require("prompt-sync")();
 
 function calculateBMI(width,height) {
     return width / height ** 2;
